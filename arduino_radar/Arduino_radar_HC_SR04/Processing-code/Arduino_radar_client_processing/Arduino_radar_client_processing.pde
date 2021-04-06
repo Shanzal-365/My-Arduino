@@ -55,7 +55,7 @@ void setup() {
   historyY = new float[HISTORY_SIZE];
   points = new Point[POINTS_HISTORY_SIZE];
  
-  myPort = new Serial(this, "COM11", 9600);
+  myPort = new Serial(this, "COM5", 9600);
   myPort.bufferUntil('\n'); // Trigger a SerialEvent on new line
 }
  
